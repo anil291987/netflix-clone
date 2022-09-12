@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BBBCFA7528CF1BAD00459CAE /* netflix_cloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBCFA7428CF1BAD00459CAE /* netflix_cloneTests.swift */; };
 		F10497C9285AF4AB00E7EDB5 /* netflix_cloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10497B9285AF4A900E7EDB5 /* netflix_cloneApp.swift */; };
 		F10497CA285AF4AB00E7EDB5 /* netflix_cloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10497B9285AF4A900E7EDB5 /* netflix_cloneApp.swift */; };
 		F10497CB285AF4AB00E7EDB5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10497BA285AF4A900E7EDB5 /* ContentView.swift */; };
@@ -23,7 +24,19 @@
 		F1D54A08285DCA3A00A84C84 /* SmallVerticalButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D54A07285DCA3A00A84C84 /* SmallVerticalButton.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		BBBCFA7628CF1BAD00459CAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F10497B4285AF4A900E7EDB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F10497BF285AF4AB00E7EDB5;
+			remoteInfo = "netflix-clone (iOS)";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		BBBCFA7228CF1BAD00459CAE /* netflix-cloneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "netflix-cloneTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBBCFA7428CF1BAD00459CAE /* netflix_cloneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = netflix_cloneTests.swift; sourceTree = "<group>"; };
 		F10497B9285AF4A900E7EDB5 /* netflix_cloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = netflix_cloneApp.swift; sourceTree = "<group>"; };
 		F10497BA285AF4A900E7EDB5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F10497BB285AF4AB00E7EDB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -40,6 +53,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		BBBCFA6F28CF1BAD00459CAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F10497BD285AF4AB00E7EDB5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -58,12 +78,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BBBCFA7328CF1BAD00459CAE /* netflix-cloneTests */ = {
+			isa = PBXGroup;
+			children = (
+				BBBCFA7428CF1BAD00459CAE /* netflix_cloneTests.swift */,
+			);
+			path = "netflix-cloneTests";
+			sourceTree = "<group>";
+		};
 		F10497B3285AF4A900E7EDB5 = {
 			isa = PBXGroup;
 			children = (
 				F10497B8285AF4A900E7EDB5 /* Shared */,
 				F10497D7285B0CC300E7EDB5 /* iOS */,
 				F10497C7285AF4AB00E7EDB5 /* macOS */,
+				BBBCFA7328CF1BAD00459CAE /* netflix-cloneTests */,
 				F10497C1285AF4AB00E7EDB5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,6 +114,7 @@
 			children = (
 				F10497C0285AF4AB00E7EDB5 /* netflix-clone.app */,
 				F10497C6285AF4AB00E7EDB5 /* netflix-clone.app */,
+				BBBCFA7228CF1BAD00459CAE /* netflix-cloneTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -160,6 +190,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		BBBCFA7128CF1BAD00459CAE /* netflix-cloneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBBCFA7A28CF1BAD00459CAE /* Build configuration list for PBXNativeTarget "netflix-cloneTests" */;
+			buildPhases = (
+				BBBCFA6E28CF1BAD00459CAE /* Sources */,
+				BBBCFA6F28CF1BAD00459CAE /* Frameworks */,
+				BBBCFA7028CF1BAD00459CAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBBCFA7728CF1BAD00459CAE /* PBXTargetDependency */,
+			);
+			name = "netflix-cloneTests";
+			productName = "netflix-cloneTests";
+			productReference = BBBCFA7228CF1BAD00459CAE /* netflix-cloneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		F10497BF285AF4AB00E7EDB5 /* netflix-clone (iOS) */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F10497D1285AF4AB00E7EDB5 /* Build configuration list for PBXNativeTarget "netflix-clone (iOS)" */;
@@ -207,6 +255,10 @@
 				LastSwiftUpdateCheck = 1340;
 				LastUpgradeCheck = 1340;
 				TargetAttributes = {
+					BBBCFA7128CF1BAD00459CAE = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = F10497BF285AF4AB00E7EDB5;
+					};
 					F10497BF285AF4AB00E7EDB5 = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
@@ -233,11 +285,19 @@
 			targets = (
 				F10497BF285AF4AB00E7EDB5 /* netflix-clone (iOS) */,
 				F10497C5285AF4AB00E7EDB5 /* netflix-clone (macOS) */,
+				BBBCFA7128CF1BAD00459CAE /* netflix-cloneTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		BBBCFA7028CF1BAD00459CAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F10497BE285AF4AB00E7EDB5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -257,6 +317,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		BBBCFA6E28CF1BAD00459CAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBBCFA7528CF1BAD00459CAE /* netflix_cloneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F10497BC285AF4AB00E7EDB5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -284,7 +352,54 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		BBBCFA7728CF1BAD00459CAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F10497BF285AF4AB00E7EDB5 /* netflix-clone (iOS) */;
+			targetProxy = BBBCFA7628CF1BAD00459CAE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		BBBCFA7828CF1BAD00459CAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joelkingsler.netflix-cloneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/netflix-clone.app/netflix-clone";
+			};
+			name = Debug;
+		};
+		BBBCFA7928CF1BAD00459CAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joelkingsler.netflix-cloneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/netflix-clone.app/netflix-clone";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		F10497CF285AF4AB00E7EDB5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -514,6 +629,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		BBBCFA7A28CF1BAD00459CAE /* Build configuration list for PBXNativeTarget "netflix-cloneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBBCFA7828CF1BAD00459CAE /* Debug */,
+				BBBCFA7928CF1BAD00459CAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		F10497B7285AF4A900E7EDB5 /* Build configuration list for PBXProject "netflix-clone" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
