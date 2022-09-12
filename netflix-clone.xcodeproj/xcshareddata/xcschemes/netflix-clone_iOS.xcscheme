@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F10497C5285AF4AB00E7EDB5"
+               BlueprintIdentifier = "F10497BF285AF4AB00E7EDB5"
                BuildableName = "netflix-clone.app"
-               BlueprintName = "netflix-clone (macOS)"
+               BlueprintName = "netflix-clone_iOS"
                ReferencedContainer = "container:netflix-clone.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -44,9 +44,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F10497C5285AF4AB00E7EDB5"
+            BlueprintIdentifier = "F10497BF285AF4AB00E7EDB5"
             BuildableName = "netflix-clone.app"
-            BlueprintName = "netflix-clone (macOS)"
+            BlueprintName = "netflix-clone_iOS"
             ReferencedContainer = "container:netflix-clone.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -61,9 +61,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F10497C5285AF4AB00E7EDB5"
+            BlueprintIdentifier = "F10497BF285AF4AB00E7EDB5"
             BuildableName = "netflix-clone.app"
-            BlueprintName = "netflix-clone (macOS)"
+            BlueprintName = "netflix-clone_iOS"
             ReferencedContainer = "container:netflix-clone.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
